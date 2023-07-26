@@ -1,0 +1,28 @@
+POST http://localhost:3000/api/mhs
+Content-Type: application/json
+
+{
+    "name": "anjim bisa",
+    "age": 1111
+}
+
+###
+PATCH http://localhost:3000/api/mhs?nim=64c08b36d4ad40e10a008c83
+Content-Type: application/json
+
+{
+    "name": "akwkak",
+    "age": 10
+}
+
+###
+GET http://localhost:3000/api/mhs?nim=64c08b36d4ad40e10a008c83
+
+###
+DELETE http://localhost:3000/api/mhs?nim=64c08b36d4ad40e10a008c83
+
+###
+GET http://localhost:3000/api/mhs
+
+
+
