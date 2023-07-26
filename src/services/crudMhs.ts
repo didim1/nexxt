@@ -5,7 +5,7 @@ import { NextResponse } from "next/server";
 export async function getStudent(nim: string | null) {
   if (!nim) {
     const mahasiswas = await Mahasiswa.find<MahasiswaProps>();
-    return NextResponse.json({ msg: "Get All Student", mahasiswas });
+    return NextResponse.json({ msg: "Get All Student", data: mahasiswas });
   }
 
   try {
