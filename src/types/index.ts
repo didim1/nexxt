@@ -9,5 +9,5 @@ export interface StudentProps {
 
 export interface ResponseProps {
   msg: string;
-  data: MahasiswaProps | MahasiswaProps[];
+  data: MahasiswaProps[] | MahasiswaProps;
 }
